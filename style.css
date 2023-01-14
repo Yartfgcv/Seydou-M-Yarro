@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(250, 226, 226);
+} 
+.page{
+    height: 950px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    margin: auto;
+}
+.gauche{
+    background-color: rgb(29, 139, 84);
+    height: 950px;
+    width: 300px;
+}
+.image img{
+    height: 60%;
+    width: 30%;
+    margin-top: 20px;
+}
+.droite{
+    background-color: white;
+    width: 600px;
+    height: 950px;
+}
